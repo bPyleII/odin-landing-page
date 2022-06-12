@@ -1,1 +1,2 @@
 # odin-landing-page
+This project is the culmination of HTML, CSS, and Flexbox basics. The project will create a landing page by using HTML to set up a boilerplate and create the page layout. It will use CSS and Flexbox to style and futher design the page layout. The web page will have a header, navbar, footer, and body content designed with Flexbox. 

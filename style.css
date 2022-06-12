@@ -1,0 +1,53 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0;
+    background: #1f2937;
+}
+
+
+.header {
+    /*Create a flex container to put items in the header in a row*/
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    
+    /*Center items vertically*/
+    align-items: center;
+    /*Create space between items and the margin*/
+    justify-content: space-around;
+}
+
+.right-links{
+    /*Create a flex container to put items in row*/
+    display: flex;
+    /*Create a gap between the links*/
+    gap: 16px;
+
+}
+
+/* Removes all bullet points from unordered lists*/
+ul {
+    list-style-type: none;
+}
+
+ul a{
+    /* removes underline from links */
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.welcome {
+    display:flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.welcome-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.welcome-sub { 
+    font-size: 18px;
+}
