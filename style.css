@@ -74,12 +74,24 @@ ul a{
     /*Create a row gap between items*/
     row-gap: 30px;
 
+    
+
 
 }
 
 /*Calls on the right class as a child of welcome*/
 .welcome-image{
-    width: 30%;
+    width: 30%;   
+}
+
+button {
+    background: #3882f6;
+    color:whitesmoke;
+    font-size: 18px;
+    margin: auto;
+    padding: 5px 20px;
+    border-radius: 12px;
+
     
     
 }
