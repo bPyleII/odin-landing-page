@@ -54,6 +54,8 @@ ul a{
     this can be done more accurately.*/
      padding: 80px 110px 0px 110px; 
 
+     
+
     
 }
 
@@ -88,10 +90,8 @@ button {
     background: #3882f6;
     color:whitesmoke;
     font-size: 18px;
-    margin: auto;
+    /*use all margin on the right to push the button left*/
+    margin-right: auto;
     padding: 5px 20px;
-    border-radius: 12px;
-
-    
-    
+    border-radius: 12px;  
 }
