@@ -1,5 +1,5 @@
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif ;
     margin: 0;
     background: #1f2937;
 }
@@ -15,6 +15,8 @@ body{
     align-items: center;
     /*Create space between items and the margin*/
     justify-content: space-around;
+
+   
 }
 
 .right-links{
@@ -22,6 +24,8 @@ body{
     display: flex;
     /*Create a gap between the links*/
     gap: 16px;
+
+   
 
 }
 
@@ -39,8 +43,18 @@ ul a{
 
 .welcome {
     display:flex;
-    flex-direction: column;
+    
     color: #e5e7eb;
+    
+     /*Center items vertically*/
+     align-items: center;
+     /*Create space between items and the margin*/
+     justify-content: space-around;
+    /*Use padding to align nav bar text with Hero text. I'm sure
+    this can be done more accurately.*/
+     padding: 80px 110px 0px 110px; 
+
+    
 }
 
 .welcome-main {
@@ -50,4 +64,22 @@ ul a{
 
 .welcome-sub { 
     font-size: 18px;
+}
+
+/*Calls on the left class as a child of welcome*/
+.welcome .left{
+    display: flex;
+    /*Put items in a column*/
+    flex-direction: column;
+    /*Create a row gap between items*/
+    row-gap: 30px;
+
+
+}
+
+/*Calls on the right class as a child of welcome*/
+.welcome-image{
+    width: 30%;
+    
+    
 }
