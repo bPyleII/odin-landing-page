@@ -75,10 +75,6 @@ ul a{
     flex-direction: column;
     /*Create a row gap between items*/
     row-gap: 30px;
-
-    
-
-
 }
 
 /*Calls on the right class as a child of welcome*/
@@ -94,4 +90,8 @@ button {
     margin-right: auto;
     padding: 5px 20px;
     border-radius: 12px;  
+}
+
+.cardContainer img{
+    width: 30%;
 }
