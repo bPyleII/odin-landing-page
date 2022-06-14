@@ -93,13 +93,15 @@ button {
 }
 
 .cardContainer img{
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .cardContainer {
     
     color: #1f2937;
     background-color: whitesmoke;
+
+    text-align: center;
     
 }
 
@@ -124,4 +126,7 @@ button {
 
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
