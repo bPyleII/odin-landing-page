@@ -93,7 +93,7 @@ button {
 }
 
 .cardContainer img{
-    width: 30%;
+    max-width: 200px;
 }
 
 .cardContainer {
@@ -117,4 +117,11 @@ button {
 .text{
     font-size: 18px;
     
+}
+
+.content {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
