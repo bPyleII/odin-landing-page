@@ -130,3 +130,25 @@ button {
     margin-bottom: 70px;
     padding-bottom: 70px;
 }
+
+.quote {
+    background: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 70px 0px;
+    display: flex;
+    /*to stack the quote and author*/
+    flex-direction: column;
+     /*Center items vertically*/
+     align-items: center;
+     /*Create space between items and the margin*/
+     justify-content: space-around;
+}
+
+.author {
+    /*These properties are used to put the author of the quote in the bottom right corner*/
+    align-self: flex-end;
+    /*Pushes the author to the left so it is not on the edge of the box*/
+    padding-right: 280px;
+}
