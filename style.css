@@ -99,7 +99,7 @@ button {
 .cardContainer {
     
     color: #1f2937;
-    background-color: whitesmoke;
+    background: whitesmoke;
 
     text-align: center;
     
@@ -151,4 +151,16 @@ button {
     align-self: flex-end;
     /*Pushes the author to the left so it is not on the edge of the box*/
     padding-right: 280px;
+}
+
+.action {
+    display: flex;
+    padding: 70px;
+    background: whitesmoke;
+    gap: 70px;
+}
+
+.banner{ 
+    background: #3882f6;
+
 }
