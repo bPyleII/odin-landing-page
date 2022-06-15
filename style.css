@@ -4,6 +4,20 @@ body{
     background: #1f2937;
 }
 
+.link-page{
+    background: #1f2937;   
+}
+
+.page-greeting{
+    font-size: 28px;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding-top:70px;
+}
 
 .header {
     /*Create a flex container to put items in the header in a row*/
