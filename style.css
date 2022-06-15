@@ -90,6 +90,13 @@ button {
     margin-right: auto;
     padding: 5px 20px;
     border-radius: 12px;  
+    box-shadow: none;
+}
+
+.banner-button {
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    
 }
 
 .cardContainer img{
@@ -154,13 +161,28 @@ button {
 }
 
 .action {
-    display: flex;
+    
     padding: 70px;
     background: whitesmoke;
-    gap: 70px;
+    
 }
 
 .banner{ 
     background: #3882f6;
-
+    padding: 50px 0px;
+    margin: 0px 90px;
+    /*Create rounded corners*/
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+      
 }
+
+.banner-text {
+    display:flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+
